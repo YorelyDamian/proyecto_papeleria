@@ -10,6 +10,25 @@ body {
   margin-left: 750px;
 }
 
+#cajita1{
+  background-color: #F3F3F3;
+  margin-top: 20PX;
+  margin-left: 70px;
+  height:450px;
+  width: 250px;
+}
+#img1{
+    margin: 0 auto;
+}
+#desc{
+  margin-top: 10px;
+  margin-left: 60px;
+}
+#btnAgregar{
+  margin-top: 25PX;
+  margin-left: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
