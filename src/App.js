@@ -1,13 +1,11 @@
+import Principal from "./Components/Nav/Principal";
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          HOLA PAPELERIA
-        </p>
-        
-      </header>
+    <div id="nav1" className="App">
+      <Principal/>
+      <Outlet/>
     </div>
   );
 }
