@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 #inicio{
-  margin-left: 750px;
+  margin-left: 550px;
 }
 
 #cajita1{
@@ -26,7 +26,7 @@ body {
 }
 #btnAgregar{
   margin-top: 25PX;
-  margin-left: 15px;
+  width: 200px;
 }
 
 code {
