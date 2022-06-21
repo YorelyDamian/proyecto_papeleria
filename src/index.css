@@ -6,25 +6,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#inicio{
+
+#inicio {
   margin-left: 550px;
 }
 
-#cajita1{
+#cajita1 {
   background-color: #F3F3F3;
   margin-top: 20PX;
   margin-left: 70px;
-  height:450px;
+  height: 450px;
   width: 250px;
 }
-#img1{
-    margin: 0 auto;
+
+#img1 {
+  margin: 0 auto;
 }
-#desc{
+
+#desc {
   margin-top: 10px;
   margin-left: 60px;
 }
-#btnAgregar{
+
+#btnAgregar {
   margin-top: 25PX;
   width: 200px;
 }
@@ -33,3 +37,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width:320px) {}
