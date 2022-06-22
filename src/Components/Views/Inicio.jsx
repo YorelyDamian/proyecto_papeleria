@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Inicio = () => {
     return (
-        <nav>
+        <nav className='p-auto'>
             <div className="row d-flex flex-wrap">
                 <div className="card" id='cajita1'>
                     <img id="img1" src="./imagenes/img1.webp" alt="" width="200" height="200" className="d-inline-block align-text-top" />
