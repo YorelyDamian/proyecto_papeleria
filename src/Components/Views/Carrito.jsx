@@ -21,7 +21,7 @@ const Carrito = () => {
                 <tr>
                   <th scope="row">1</th>
                   <td>Mark</td>
-                  <input id="txt" type="text" placeholder='CANTIDAD' className='form-control' />
+                  <input id="txtCantidad" type="number" />
                   <td>Mark</td>
                   <td></td>
                   <button className="btn rounded-pill btn-outline-secondary" type="button">
