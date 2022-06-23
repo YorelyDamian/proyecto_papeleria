@@ -13,10 +13,26 @@ body {
 
 #cajita1 {
   background-color: #F3F3F3;
-  margin-top: 20PX;
+  margin-top: 50PX;
+  margin-bottom: 50px;
   margin-left: 10em;
   height: 450px;
   width: 250px;
+}
+
+#cajitaProducto {
+  background-color: #F3F3F3;
+  margin-left: 5em;
+  margin-top: 50PX;
+  margin-bottom: 50px;
+  height: 600px;
+  width: 700px;
+}
+
+#txt {
+  width: 100px;
+  height: 25px;
+
 }
 
 #img1 {
