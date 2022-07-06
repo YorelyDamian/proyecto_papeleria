@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const URI = 'http://localhost:8000/blogs/'
 
@@ -43,17 +43,17 @@ const Carrito = () => {
                 </tr>
               </thead>
               <tbody>
-              { blogs.map ( (blogs) => (
-                <tr key={ blogs.id}>
-                  <td>{ blogs.producto }</td>
-                  <td>{ blogs.precio }</td>
-                  <td>{ blogs.cantidad }</td>
-                  <td>{ blogs.total }</td>
-                  <td>{ blogs.clave }</td>
-                  <Link to={`/edit/${blogs.id}`} className="btn rounded-pill btn-outline-secondary" type="button">
-                    <img id="img1" src="./imagenes/listo.ico" alt="" width="25" height="25" className="d-inline-block align-text-top" /></Link>
+              { blogs.map ( (blog) => (
+                <tr key={ blog.id}>
+                  <td>{ blog.producto }</td>
+                  <td>{ blog.precio }</td>
+                  <td>{ blog.cantidad }</td>
+                  <td>{ blog.total }</td>
+                  <td>{ blog.clave }</td>
+                  <NavLink to={`/edit/${blog.id}`} className="btn rounded-pill btn-outline-secondary" type="button">
+                    <img id="img1" src="./imagenes/listo.ico" alt="" width="25" height="25" className="d-inline-block align-text-top" /></NavLink>
                   <td></td>
-                  <button onClick={ ()=>deleteBlogs(blogs.id) } className="btn rounded-pill btn-outline-secondary" type="button">
+                  <button onClick={ ()=>deleteBlogs(blog.id) } className="btn rounded-pill btn-outline-secondary" type="button">
                     <img id="img1" src="./imagenes/delete.ico" alt="" width="25" height="25" className="d-inline-block align-text-top" /></button>
                 </tr>
               ))}
