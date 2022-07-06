@@ -5,13 +5,17 @@ import App from './App';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Carrito from './Components/Views/Carrito';
 import Inicio from './Components/Views/Inicio';
+import CompCreateBlog from './blog/createBlog';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}>
-        <Route path='/inicio' element={<Inicio/>}></Route>
-        <Route path='carrito' index element={<Carrito/>}></Route>
+        <Route path='/Inicio' element={<Inicio/>}></Route>
+        <Route path='/Create' element={<CompCreateBlog/>}></Route>
+        <Route path='/Carrito' index element={<Carrito/>}></Route>
       </Route>
     </Routes>
   </BrowserRouter>
