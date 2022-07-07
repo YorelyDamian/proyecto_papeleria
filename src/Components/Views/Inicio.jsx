@@ -8,10 +8,10 @@ const URI = 'http:://localhost:8000/blogs/'
 const Inicio = () => {
 
     const [producto, setProducto] = useState("")
-    const [precio, setPrecio] = useState()
-    const [cantidad, setCantidad] = useState()
-    const [total, setTotal] = useState()
-    const [clave, setClave] = useState()
+    const [precio, setPrecio] = useState("")
+    const [cantidad, setCantidad] = useState("")
+    const [total, setTotal] = useState("")
+    const [clave, setClave] = useState("")
     const navigate = useNavigate()
 
     const store = async (e) => {
@@ -42,7 +42,6 @@ const Inicio = () => {
                             <span className="placeholder col-12 bg-warning"></span>
                             <h6 id="desc" className="card-title">$260.00</h6>
                             <h7 id="desc" className="card-title">SKU: 111082</h7>
-                            <button type='submit' className='btn rounded-pill btn-outline-warning'>Comprar</button>
                             <NavLink to='/Create' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                                 <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Ir al Carrito
                             </NavLink>
@@ -63,7 +62,7 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$65.50</h6>
                         <h7 id="desc" className="card-title">SKU: 107191</h7>
-                        <NavLink to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
                         </NavLink>
                     </form>
@@ -83,9 +82,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$65.90</h6>
                         <h7 id="desc" className="card-title">SKU: 89160</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -103,9 +102,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$70.00</h6>
                         <h7 id="desc" className="card-title">SKU: 84190</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -123,9 +122,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$40.00</h6>
                         <h7 id="desc" className="card-title">SKU: 71197</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -143,9 +142,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$50.00</h6>
                         <h7 id="desc" className="card-title">SKU: 67926</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -163,9 +162,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$200.00</h6>
                         <h7 id="desc" className="card-title">SKU: 22631</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -183,9 +182,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$215.00</h6>
                         <h7 id="desc" className="card-title">SKU: 106636</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -203,9 +202,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$105.00</h6>
                         <h7 id="desc" className="card-title">SKU: 65823</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -223,9 +222,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$45.50</h6>
                         <h7 id="desc" className="card-title">SKU: 96820</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>    
                     </div>
                 </div>
@@ -243,9 +242,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$47.00</h6>
                         <h7 id="desc" className="card-title">SKU: 67823</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>   
                     </div>
                 </div>
@@ -263,9 +262,9 @@ const Inicio = () => {
                         <span className="placeholder col-12 bg-warning"></span>
                         <h6 id="desc" className="card-title">$75.00</h6>
                         <h7 id="desc" className="card-title">SKU: 62124</h7>
-                        <Link to='/carrito' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
+                        <NavLink to='/Create' type='submit' id="btnAgregar" className='btn rounded-pill btn-outline-warning'>
                             <img src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" /> Agregar al Carrito
-                        </Link>
+                        </NavLink>
                     </form>
                     </div>
                 </div>

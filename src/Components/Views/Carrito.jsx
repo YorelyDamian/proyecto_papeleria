@@ -67,8 +67,7 @@ const Carrito = () => {
           <div className="card-body">
             <h5 className="card-title">Ticket Papeleria "FIRE"</h5>
             <span className="placeholder col-12 bg-warning"></span>
-            <h6 id="desc" className="card-title">SUBTOTAL</h6>
-            <h7 id="desc" className="card-title">TOTAL</h7>
+
             <button className="btn rounded-pill btn-outline-warning" type="button">
               <img id="img1" src="./imagenes/carrito.png" alt="" width="25" height="25" className="d-inline-block align-text-top" />REALIZAR COMPRA</button>
           </div>

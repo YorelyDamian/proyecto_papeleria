@@ -25,6 +25,9 @@ const CompCreateBlog = () => {
     }
 
     return (
+        <div className="container mt-5">
+        <div className="row">
+          <div className="col"></div>
         <div>
            <h3>Create POST</h3>
            <form onSubmit={store}>
@@ -75,6 +78,8 @@ const CompCreateBlog = () => {
                  </div>     
                  <button type='submit' className='btn btn-primary'>Store</button>                  
            </form>
+        </div>
+        </div>
         </div>
     )
 }
