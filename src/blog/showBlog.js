@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const URI = 'http:://localhost:8000/blogs'
+const URI = 'https://papeleria-fyre-final.herokuapp.com/blogs/'
 
 const CompShowBlogs = () => {
     const [blogs, setBlogs] = useState([])

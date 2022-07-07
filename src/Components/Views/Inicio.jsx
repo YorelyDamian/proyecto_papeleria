@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 import axios from 'axios';
 import { useState } from 'react';
 
-const URI = 'http:://localhost:8000/blogs/'
+const URI = 'https://papeleria-fyre-final.herokuapp.com/blogs/'
 
 const Inicio = () => {
 
